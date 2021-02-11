@@ -11,7 +11,7 @@ And then update `.ssh/authorized_keys` with your ssh public key.
 ## Install zsh
 ```bash
 sudo apt install -y zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh)"
 ```
 
 ## Setup my system
