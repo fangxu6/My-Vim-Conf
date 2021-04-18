@@ -26,3 +26,10 @@ source ~/.zshrc
 
 ## Optional
 Open .zshrc and replace the theme with powerlevel10k
+
+
+## .gitconfig
+[http "https://githubusercontent.com"]    
+  proxy = https://192.168.100.7:2471    
+[http]
+  proxy = http://192.168.100.7:2471
