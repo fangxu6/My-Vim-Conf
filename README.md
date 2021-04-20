@@ -58,3 +58,12 @@ Host github.com
 Host *.compute.amazonaws.com
     ProxyCommand nc -X connect -x 192.168.100.101:53952 %h %p
 ```
+
+## vscode
+```
+Toggle Terminal 进入命令行
+mkdir Projects
+code Projects 使用vs code打开Projects
+```
+
+
