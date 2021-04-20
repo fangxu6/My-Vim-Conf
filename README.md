@@ -40,6 +40,8 @@ git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.c
   proxy = http://192.168.100.7:2471
 
 ## git ssh代理
+touch /.ssh.config
+
 Host github.com
     User git
     ProxyCommand nc -X connect -x 192.168.100.101:53952 %h %p
