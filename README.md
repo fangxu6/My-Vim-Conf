@@ -33,6 +33,7 @@ export https_proxy=https://192.168.6.101:53952
 
 ## .gitconfig  git http代理
 git config --global http.proxy http://proxyUsername:proxyPassword@proxy.server.com:port
+
 [http "https://githubusercontent.com"]    
   proxy = https://192.168.100.7:2471    
 [http]
